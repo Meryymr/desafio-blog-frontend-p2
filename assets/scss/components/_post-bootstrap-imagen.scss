@@ -1,0 +1,22 @@
+.post__imagen-bootstrap {
+    padding: $sp5;
+    border-radius: 50px;
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+.relacionados__imagen {
+    height: 300px;
+    object-fit: cover;
+    padding: $sp3;
+    border-radius: 40px;
+    max-width: 100%;
+}
+
+
+.tag__img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

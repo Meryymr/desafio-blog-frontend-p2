@@ -1,0 +1,28 @@
+.newsletter {
+    background-color: $adl;
+    padding: $sp5;
+    margin: 30px;
+    border-radius: 20px;
+
+    .newsletter__title {
+        color: $white;
+        font-size: $fs5;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .newsletter__form {
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        margin: 0 auto;
+    }
+
+    .newsletter__container-buttons {
+        width: 20%;
+        padding: 0 20px;
+    }
+}

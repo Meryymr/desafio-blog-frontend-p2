@@ -1,0 +1,59 @@
+.post__title {
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.post__logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-post {
+    background-color: #c9c9c9;
+    border-radius: 10px;
+    font-size: $fs6;
+    padding: $sp5;
+    margin: 20px 0;
+
+}
+
+.relacionados_title {
+    font-weight: 700;
+    padding: $sp4;
+}
+
+@media (min-width: 900px) {
+    .relacionados {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &__article {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 400px;
+        }
+
+        &__list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+    }
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: $sp3;
+}
+
+
+.tag__titulo {
+    font-weight: 500;
+    font-size: 15px;
+}
